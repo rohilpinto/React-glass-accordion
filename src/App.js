@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./app.scss";
 
 import Main from "./components/Main";
-
 
 const App = () => {
   return (
