@@ -1,0 +1,17 @@
+@use './scss/abstracts/fonts.scss';
+@use './scss/abstracts/variables.scss' as v;
+@use './scss/components/main.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: v.$font-family;
+}
+
+.App {
+  background-color: v.$background;
+  height: 100vh;
+}
