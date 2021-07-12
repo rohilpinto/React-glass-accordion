@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100%;
   padding: 0 10px;
 
@@ -155,5 +156,17 @@
 
   .accordion-content-parent {
     width: auto;
+  }
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin: 10px;
+
+  a {
+    text-decoration: none;
+    color: lightcyan;
+    text-decoration: underline;
   }
 }

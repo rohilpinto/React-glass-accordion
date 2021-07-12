@@ -22,7 +22,11 @@ const Main = () => {
           })}
         </div>
       </div>
+
       <div className="accordion-content-parent"></div>
+      <footer>
+        Made by <a href="https://www.rohilpinto.com">Rohil</a>
+      </footer>
     </div>
   );
 };
