@@ -7,12 +7,12 @@ const Content = ({ content }) => {
   const [isTrue, setIsTrue] = useState(false);
 
   return (
-    <div className="accordion-wrapper">
+    <div className="accordion-wrapper" onClick={() => setIsTrue(!isTrue)}>
       <div className="content-wrapper">
         <div className="question">{content.question} </div>
         <div className="answer"> {isTrue && <div>{content.answer}</div>}</div>
       </div>
-      <div className="arrow-wrapper">{isTrue ? <ArrowUp onClick={() => setIsTrue(!isTrue)} /> : <ArrowDown onClick={() => setIsTrue(!isTrue)} />}</div>
+      <div className="arrow-wrapper">{isTrue ? <ArrowUp /> : <ArrowDown />}</div>
     </div>
   );
 };
