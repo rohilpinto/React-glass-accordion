@@ -13,18 +13,22 @@ body {
 
 .App {
   background-color: v.$background;
-  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 700px) {
-  .App {
-    // max-height: 100vh;
-    // height: 100%;
-    padding: 10px;
-    min-height: 100vh;
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-  }
-}
+// @media screen and (max-width: 700px) {
+//   .App {
+//     // max-height: 100vh;
+//     // height: 100%;
+//     padding: 10px;
+//     min-height: 100vh;
+//     height: 100%;
+//   }
+// }
