@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 // import Grid from "@material-ui/core/Grid";
 // import Paper from "@material-ui/core/Paper";
 
 // for the accordion
-import ArrowDown from "@material-ui/icons/KeyboardArrowDownSharp";
-import ArrowUp from "@material-ui/icons/KeyboardArrowUpSharp";
+
 import data from "../data";
 import Content from "./Content";
 // console.log(data);
