@@ -138,6 +138,10 @@
 
   .arrow-wrapper {
     align-self: flex-start;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 @media screen and (max-width: 947px) {
